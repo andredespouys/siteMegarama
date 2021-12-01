@@ -50,21 +50,22 @@
     position: relative;
   }
   
-  .film:nth-child(1) {
-    z-index: 5;
-  }
-  .film:nth-child(2) {
-    z-index: 4;
-  }
-  .film:nth-child(3) {
-    z-index: 3;
-  }
-  .film:nth-child(4) {
-    z-index: 2;
-  }
-  .film:nth-child(5) {
-    z-index: 1;
-  }
+.block-film{
+  z-index: 500;
+}
+
+.block-film:nth-child(2){
+  z-index: 300;
+}
+.block-film:nth-child(3){
+  z-index: 200;
+}
+.block-film:nth-child(4){
+  z-index: 100;
+}
+.block-film:nth-child(5){
+  z-index: 50;
+}
 
 .box-film{
   position: relative;
