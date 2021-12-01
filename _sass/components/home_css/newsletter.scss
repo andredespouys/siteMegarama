@@ -1,6 +1,12 @@
 .newsletter {
+  margin: 20% 0;
   justify-content: center;
-  background-image: url("../../");
+  background-image: url("../../../assets/img/img-newsletter.png");
+  background-repeat: no-repeat;
+
+  background-position-y: top;
+  background-attachment: fixed;
+  height: 60vh;
 }
 
 .img-cine {
@@ -12,7 +18,7 @@
 .box-text {
   /* Positionnement du texte sur l'image */
   font-family: "Montserrat", Roboto;
-  margin: 10%;
+  margin: 10% 0;
   line-height: 300%;
   top: 0px;
   margin-top: 10%;
@@ -25,7 +31,7 @@ h2.newsletter {
   font-family: "Roboto", Montserrat;
 }
 
-.inscri {
+.title3 {
   /* Sous titre "Inscrivez-vous à notre newsletter" */
   font-family: "Roboto";
   font-size: 36px;
