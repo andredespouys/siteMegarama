@@ -24,7 +24,7 @@
   margin-top: 10%;
 }
 
-h2.newsletter {
+.newsletter h2 {
   /* Titre "Infos en avant-première" */
   font-size: 4rem;
   color: #f6f7eb;
@@ -38,13 +38,6 @@ h2.newsletter {
   margin: 5% 0;
 }
 
-body {
-  /* Tous */
-  margin: 0px;
-  padding: 0px;
-  background-color: #232323;
-  color: #f6f7eb;
-}
 
 label {
   /* Indication du formulaire "Renseigner votre e-mail" */
