@@ -57,14 +57,6 @@ h2{
     color: #F6F7EB;
     font-size:3vw;
 }
-.titre_section i {
-    display: inline-block;
-    background-color: #F6F7EB;
-    height: 3px;
-    flex-grow: 1;
-    margin-left: 50px;
-    border-radius: 3px;
-}
 
 h3{
     margin-top:7%;
@@ -75,11 +67,20 @@ h3{
 }
 
 
-.titre_section{
+.section_title{   /*classe à ajouter pour tous les titres des sections*/
     display: flex;
     font-family: roboto, arial, helvetica, sans-serif;
     flex-direction: row;
     align-items: center;
     margin: 5% 0;
+}
+
+.section_title i {
+    display: inline-block;
+    background-color: #F6F7EB;
+    height: 3px;
+    flex-grow: 1;
+    margin-left: 50px;
+    border-radius: 3px;
 }
 
