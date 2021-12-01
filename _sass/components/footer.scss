@@ -1,21 +1,4 @@
-.grid{    /*cette classe sert à apporter un flux sur les côtés pour que l’espace
-    soit le même pour tous les éléments */
-padding:0 8vw ;
-}
-body{     /*couleur du background */
-background-color: #b3b0b0;
-}
 
-h1 {
-font-size: 5rem;
-text-align: left;
-font-weight: bold;
-}
-
-h2 {
-font-size: 4rem;
-color: #F6F7EB;
-}
 
 .list-footer-g{
 background-color: green;
@@ -56,6 +39,7 @@ ul{
     background-color: red;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 
 
@@ -117,3 +101,6 @@ ul{
     margin: 0 20px 0 20px;
 }
 
+.arrierebouton{
+    background-color: blue;
+}
