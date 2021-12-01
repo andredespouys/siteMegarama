@@ -1,0 +1,75 @@
+.newsletter {
+  margin: 20% 0;
+  justify-content: center;
+  background-image: url("../../../assets/img/img-newsletter.png");
+  background-repeat: no-repeat;
+
+  background-position-y: top;
+  background-attachment: fixed;
+  height: 60vh;
+}
+
+.img-cine {
+  /* Image de fond avec opaciter */
+  opacity: 30%;
+  background-color: black;
+}
+
+.box-text {
+  /* Positionnement du texte sur l'image */
+  font-family: "Montserrat", Roboto;
+  margin: 10% 0;
+  line-height: 300%;
+  top: 0px;
+  margin-top: 10%;
+}
+
+h2.newsletter {
+  /* Titre "Infos en avant-première" */
+  font-size: 4rem;
+  color: #f6f7eb;
+  font-family: "Roboto", Montserrat;
+}
+
+.title3 {
+  /* Sous titre "Inscrivez-vous à notre newsletter" */
+  font-family: "Roboto";
+  font-size: 36px;
+  margin: 5% 0;
+}
+
+body {
+  /* Tous */
+  margin: 0px;
+  padding: 0px;
+  background-color: #232323;
+  color: #f6f7eb;
+}
+
+label {
+  /* Indication du formulaire "Renseigner votre e-mail" */
+  display: block;
+  margin: 4% 0 2% 0;
+  font: 1rem "Montserrat", Roboto, sans-serif;
+  padding-left: 3%;
+}
+
+input {
+  /* Emplacement de la zone de texte avec l'exemple */
+  margin: 0;
+  padding: 5px;
+  font-size: 15px;
+  font-family: "Montserrat", Roboto;
+  border-radius: 50px 0px 0px 50px;
+  padding: 0;
+  border: none;
+  opacity: 100%;
+  align-items: center;
+  padding-left: 3%;
+}
+
+.mail-input {
+  /* Ensemble zone de texte + Bouton */
+  display: flex;
+  align-content: flex-start;
+}
