@@ -15,47 +15,46 @@ h3 {
 }
 
 .container_en_ce_moment {
-} /*le contenu
-    position: relative;
-    display: flex;
-    flex-direction: column;
+  /*le contenu de tous mes films*/
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
-.liste_films{
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    width: 100%;
-    background-color: #393939;
-    border-radius:25px;
+.liste_films {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  background-color: #393939;
+  border-radius: 25px;
 }
 
-.affiche_film{
-    padding: 0 1%;
-    width: 23%;
-    margin: 3.5% 0;
+.affiche_film {
+  padding: 0 1%;
+  width: 23%;
+  margin: 3.5% 0;
 }
 
-.affiche_film_bas{
-    margin-bottom: 6%;
+.affiche_film_bas {
+  margin-bottom: 6%;
 }
 
-.titre_film{
-    color: #F6F7EB;
-    text-align: center; 
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.2em;
+.titre_film {
+  color: #f6f7eb;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2em;
 }
 
-
-img{
-    display:block;
-    width: 60%;
-    max-width: 100%;
-    margin: 0 auto;
-
+img {
+  display: block;
+  width: 60%;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 /* ----------------------------EVENEMENTS----------------------------------------------------------- */

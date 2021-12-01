@@ -1,29 +1,12 @@
 /* TOP 5 SECTION */
 
 
-*{
-    padding: 0;
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-  }
-  body {
-    background-color: #232323;
-  }
-  .flux {
-    padding: 0 5vw;
-  }
+
+  
   .top-5 ol {
     list-style: none;
     display: flex;
     justify-content: space-between;
-  }
-  i {
-    display: inline-block;
-    background-color: #f6f7eb;
-    height: 3px;
-    flex-grow: 1;
-    margin-left: 50px;
-    border-radius: 3px;
   }
   .titre_section {
     display: flex;
