@@ -4,12 +4,27 @@ h2 {
 }
 
 .container_en_ce_moment{
-  padding: 50px;
-  background-color: red;
+  padding: 4vh 7vh 7vh 7vh;
+  background-color: #393939;
+  border-radius: 30px;  
 }
 
 .button_center_absolute{
-  margin: 0 auto -70px auto;
+  margin: 20px auto -80px auto;
 }
+
+.film{
+  display: flex;
+  padding: 0;
+  margin :3vh;
+  flex-direction: column;
+  align-items: center;  
+}
+
+.container_en_ce_moment h3{
+  color: #f6f7eb;
+  padding-top: 10px;
+}
+
 
 
