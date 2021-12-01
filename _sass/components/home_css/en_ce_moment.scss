@@ -1,3 +1,96 @@
-h1{
-    background-color: red;
+h2{
+    color: #F6F7EB;
+    font-size:3vw;
+}
+.titre_section i {
+    display: inline-block;
+    background-color: #F6F7EB;
+    height: 3px;
+    flex-grow: 1;
+    margin-left: 50px;
+    border-radius: 3px;
+}
+
+h3{
+    margin-top:7%;
+}
+
+.texte_roboto{
+    font-family: roboto, arial, helvetica, sans-serif;
+}
+
+
+.titre_section{
+    display: flex;
+    font-family: roboto, arial, helvetica, sans-serif;
+    flex-direction: row;
+    align-items: center;
+    margin: 5% 0;
+}
+
+
+/* ----------------------------EN_CE_MOMENT----------------------------------------------------------- */
+
+.en_ce_moment section{
+    display: flex;
+    flex-direction: column;
+}
+
+.container_en_ce_moment{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.liste_films{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    background-color: #393939;
+    border-radius:25px;
+}
+
+.affiche_film{
+    padding: 0 1%;
+    width: 23%;
+    margin: 3.5% 0;
+}
+
+.affiche_film_bas{
+    margin-bottom: 6%;
+}
+
+.titre_film{
+    color: #F6F7EB;
+    text-align: center; 
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+}
+
+
+img{
+    display:block;
+    width: 60%;
+    max-width: 100%;
+    margin: 0 auto;
+
+}
+
+/* ----------------------------EVENEMENTS----------------------------------------------------------- */
+
+
+
+.test{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.test a{
+    margin:20px;
 }

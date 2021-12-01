@@ -3,3 +3,88 @@ body {
     font-family: "Roboto", Montserrat, serif;
 }
 
+/* ----------------------------BG----------------------------------------------------------- */
+
+body{
+    background-color: #232323;
+}
+
+.grid{
+    padding:0 8vw ;
+}
+
+a{
+    color: #F6F7EB;
+}
+
+/* ----------------------------BOUTONS_DESK----------------------------------------------------------- */
+
+
+.button{  /* bouton de base ROSE */
+    display:table;
+    max-width: 100%;
+    text-align: center;
+    background-color: #FF5476; 
+    padding:12px 29px;
+    border-radius:30px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    transition: 0.2s;
+    color: #F6F7EB;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.button:hover{
+    background-color: #DD4865;
+}
+
+.button-blue{ /* bouton BLEU */
+    background-color: #77EECC;
+    color: #393E41;
+}
+
+.button-blue:hover{
+    background-color: #60C2A7;
+}
+
+.container_button{
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    bottom:-2.5%;
+    left:50%;
+    transform: translateX(-50%)
+}
+
+
+/* ----------------------------GENERAL----------------------------------------------------------- */
+
+h2{
+    color: #F6F7EB;
+    font-size:3vw;
+}
+.titre_section i {
+    display: inline-block;
+    background-color: #F6F7EB;
+    height: 3px;
+    flex-grow: 1;
+    margin-left: 50px;
+    border-radius: 3px;
+}
+
+h3{
+    margin-top:7%;
+}
+
+.texte_roboto{
+    font-family: roboto, arial, helvetica, sans-serif;
+}
+
+
+.titre_section{
+    display: flex;
+    font-family: roboto, arial, helvetica, sans-serif;
+    flex-direction: row;
+    align-items: center;
+    margin: 5% 0;
+}
+
