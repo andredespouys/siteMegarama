@@ -20,12 +20,12 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  vertical-align: middle;
+  z-index: 1;
   margin: 0 auto;
 }
 .box-title-horaires {
   position: relative;
-  margin: 15% 5%;
+  margin: 15% 0;
 }
 .title2 {
   padding: 0 10% 10% 0;
@@ -43,10 +43,10 @@
   border-radius: 10px;
   color: #f6f7eb;
   padding: 4% 5%;
-  margin: 5% 0;
+  margin: 5% auto;
   font-size: 24px;
   display: block;
-  width: 90%;
+  width: 100%;
 }
 .icon-horaires {
   position: absolute;
@@ -54,7 +54,6 @@
   left: -1%;
 }
 .box-week {
-  display: block;
   justify-content: space-evenly;
 }
 .weekdays {

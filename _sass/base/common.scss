@@ -1,86 +1,82 @@
 body {
-    background-color: $primary-color;
-    font-family: "Roboto", Montserrat, serif;
+  background-color: $primary-color;
+  font-family: "Roboto", Montserrat, serif;
 }
 
-.grid{
-    padding:0 8vw ;
+.grid {
+  padding: 0 8vw;
 }
 
-a{
-    color: #F6F7EB;
-    text-decoration: none;
+a {
+  color: #f6f7eb;
+  text-decoration: none;
 }
 
 /* ----------------------------BOUTONS_DESK----------------------------------------------------------- */
 
-
-.button{  /* bouton de base ROSE */
-    display:table;
-    max-width: 100%;
-    text-align: center;
-    background-color: #FF5476; 
-    padding:12px 29px;
-    border-radius:30px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    transition: 0.2s;
-    color: #F6F7EB;
-    font-family: 'Montserrat', sans-serif;
+.button {
+  /* bouton de base ROSE */
+  display: table;
+  max-width: 100%;
+  text-align: center;
+  background-color: #ff5476;
+  padding: 12px 29px;
+  border-radius: 30px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  transition: 0.2s;
+  color: #f6f7eb;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
 }
 
-.button:hover{
-    background-color: #DD4865;
+.button:hover {
+  background-color: #dd4865;
 }
 
-.button-blue{ /* bouton BLEU */
-    background-color: #77EECC;
-    color: #393E41;
+.button-blue {
+  /* bouton BLEU */
+  background-color: #77eecc;
+  color: #393e41;
 }
 
-.button-blue:hover{
-    background-color: #60C2A7;
+.button-blue:hover {
+  background-color: #ff5476;
 }
 
-.container_button{
-    position:absolute;
-    display: flex;
-    justify-content: center;
-    bottom:-2.5%;
-    left:50%;
-    transform: translateX(-50%)
+.container_button {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  bottom: -2.5%;
+  left: 50%;
+  transform: translateX(-50%);
 }
-
 
 /* ----------------------------GENERAL----------------------------------------------------------- */
 
-h2{
-    color: #F6F7EB;
-    font-size:3vw;
+h2 {
+  color: #f6f7eb;
+  font-size: 3vw;
 }
 
-h3{
-    margin-top:7%;
+.texte_roboto {
+  font-family: roboto, arial, helvetica, sans-serif;
 }
 
-.texte_roboto{
-    font-family: roboto, arial, helvetica, sans-serif;
-}
-
-
-.section_title{   /*classe à ajouter pour tous les titres des sections*/
-    display: flex;
-    font-family: roboto, arial, helvetica, sans-serif;
-    flex-direction: row;
-    align-items: center;
-    margin: 5% 0;
+.section_title {
+  /*classe à ajouter pour tous les titres des sections*/
+  display: flex;
+  font-family: roboto, arial, helvetica, sans-serif;
+  flex-direction: row;
+  align-items: center;
+  margin: 5% 0;
 }
 
 .section_title i {
-    display: inline-block;
-    background-color: #F6F7EB;
-    height: 3px;
-    flex-grow: 1;
-    margin-left: 50px;
-    border-radius: 3px;
+  display: inline-block;
+  background-color: #f6f7eb;
+  height: 3px;
+  flex-grow: 1;
+  margin-left: 50px;
+  border-radius: 3px;
 }
-
