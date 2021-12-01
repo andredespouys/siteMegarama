@@ -1,15 +1,12 @@
 @import "base/reset";
 
 @import "abstracts/variables";
-@import "base/common";
+@import "base/common";  
 
 @import "components/header";
 @import "components/footer";
 @import "components/news";
 @import "components/home_css/top5";
 @import "components/home_css/en_ce_moment";
-<<<<<<< HEAD
 @import "components/home_css/infos_cine";
-=======
-@import "components/home_css/evenement";
->>>>>>> 0fabac4861649bb0ef70f5a16161b5b9b5156e85
+

@@ -1,34 +1,10 @@
 /* TOP 5 SECTION */
 
-
-
-  
-  .top-5 ol {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-  }
-  .titre_section {
-    display: flex;
-    flex-direction: row;
-    font-weight: bold;
-    align-items: center;
-    margin: 5% 0;
-  }
   h2 {
     color: #f6f7eB;
     font-size: 70px;
     font-weight: bold;
   }
-  p {
-    color: #f6f7eb;
-  }
-  h3 {
-    color: #f6f7eb;
-    font-weight: bold;
-    font-size: 65px;
-  }
-
 
   /* EFFET HOVER TOP 5 */
 
@@ -46,14 +22,18 @@
   }
   
   .film span {
-    font-size: 250px;
+    font-size: 225px;
     color: #ff5b7b;
     font-weight: bold;
     position: absolute;
     top: -30%;
-    left: -30%;
+    left: -20%;
   }
   
+  .film img {
+    max-width: 100%;
+  }
+
   .film:hover .pink_bouton {
     opacity : 1;
     bottom: 35%;
@@ -85,4 +65,14 @@
   .film:nth-child(5) {
     z-index: 1;
   }
-  
+
+.box-film{
+  position: relative;
+}
+.film {
+  margin: 0% 0%;
+  padding-left: 10%;
+}
+.container-fluid {
+  margin: 10% 0%;
+}
