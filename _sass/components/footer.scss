@@ -192,11 +192,13 @@ ul{
     align-items: center;
     border-radius: 50%;
     transition: 0.2s;
+     
     
 }
 
 .arrierebouton:hover{
     background-color: $blue;
+    transform: rotate(10deg)
 }
 
 .arrierebouton2:hover{
@@ -225,3 +227,10 @@ ul{
 } */
 
 /*768 / 375*/
+.logo{
+    transition: 0.2s;
+}
+.logo:hover{
+    transform: scale(1.1);
+    transform: rotate(1deg);
+}
