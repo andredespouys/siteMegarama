@@ -43,11 +43,6 @@ nav {
   transition: 1s ease;
 }
 
-.item-nav:hover {
-  background-color: white;
-  color: #232323;
-  border-radius: 10px;
-}
 
 .nav-a {
   color: #f6f7eb;
@@ -75,4 +70,8 @@ nav {
   padding-top: 4%;
   border: none;
   border-color: white;
+}
+
+.nav-a:hover {
+  color: #ff5b7b;
 }
