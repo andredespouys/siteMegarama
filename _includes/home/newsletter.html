@@ -1,18 +1,21 @@
 <section class="newsletter grid">
-  <div class="boxt-text">
-    <h2 class="newsletter">Infos en avant-première</h2>
-    <h3 class="inscri">Inscrivez-vous à notre newsletter</h3>
+  <div class="box-text">
+    <h2 class="title-newsletter">Infos en avant-première ?</h2>
+    <h3 class="text-newsletter">Inscrivez-vous à notre newsletter !</h3>
     <form action="traitement php">
       <!-- Indication de où vont les info entrer-->
-      <label for="email">Veuillez renseigner votre adresse mail :</label>
+      <label for="email" class="label"
+        >Veuillez renseigner votre adresse mail :</label
+      >
       <div class="mail-input">
         <input
           type="email"
           id="email"
           placeholder="toto@exemple.com"
           pattern=".+@globex\.com"
+          class="input-newsletter"
         />
-        <a href="#" class="button">M'inscrire</a>
+        <a href="#" class="button button-newsletter">M'inscrire</a>
       </div>
     </form>
   </div>
