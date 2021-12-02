@@ -23,8 +23,8 @@
 }
 
 .button_center_absolute{
-  display: inline-block;
-  margin: 20px auto -30px auto;
+  transform: translateY(50%); 
+  margin: 20px auto 0 auto;
 }
 
 .film{
