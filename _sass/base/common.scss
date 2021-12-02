@@ -16,6 +16,9 @@ a {
   color: #f6f7eb;
   text-decoration: none;
 }
+a:hover {
+  color: inherit;
+}
 
 /* ----------------------------BOUTONS_DESK----------------------------------------------------------- */
 
@@ -75,7 +78,7 @@ h1 {
 
 h2 {
   color: #f6f7eb;
-  font-size: 200px;
+  font-size: 4vw;
   font-weight: bold;
 
 }
