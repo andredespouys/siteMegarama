@@ -1,0 +1,27 @@
+.film-info {
+  display: flex;
+  justify-content: space-around;
+}
+.img-film {
+  width: 40%;
+  margin: 0 5% 0 0;
+}
+.image-film {
+  width: 100%;
+}
+
+.text {
+  width: 100%;
+  display: block;
+}
+.box-title-film {
+  margin-bottom: 5%;
+}
+.film-settings {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.list-info-film {
+  color: white;
+}
