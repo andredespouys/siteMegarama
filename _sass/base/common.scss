@@ -61,11 +61,25 @@ a {
 
 /* ----------------------------GENERAL----------------------------------------------------------- */
 
+h1 {
+  font-size: 5rem;
+  text-align: left;
+  font-weight: bold;
+}
+
 h2 {
   color: #f6f7eb;
   font-size: 200px;
   font-weight: bold;
 
+}
+h3 {
+  color: #f6f7eb;
+  font-size: 2rem;
+}
+
+h3{
+  font-family: roboto, arial, helvetica, sans-serif;
 }
 
 p {
