@@ -33,7 +33,7 @@ a {
   cursor: pointer;
   background: linear-gradient(to left, #ff5476 50%, #c73c58 50%) right;
   background-size: 200%;
-  transition: 1s ease-out;
+  transition: 0.2s ease-out;
 }
 .button:hover {
   background-color: #dd4865;
@@ -56,7 +56,7 @@ a {
   color: #393e41;
   background: linear-gradient(to left, #77eecc 50%, #4ca88e 50%) right;
   background-size: 200%;
-  transition: 1s ease-out;
+  transition: 0.2s ease-out;
 }
 
 .button-blue:hover {
@@ -84,7 +84,7 @@ h3 {
   font-size: 2rem;
 }
 
-h3{
+h3 {
   font-family: roboto, arial, helvetica, sans-serif;
 }
 
