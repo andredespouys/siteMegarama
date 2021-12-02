@@ -28,10 +28,17 @@ a {
   padding: 12px 29px;
   border-radius: 30px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  transition: 0.2s;
   color: #f6f7eb;
   font-family: "Montserrat", sans-serif;
   cursor: pointer;
+  background: linear-gradient(to left, #ff5476 50%, #c73c58 50%) right;
+  background-size: 200%;
+  transition: 1s ease-out;
+}
+.button:hover {
+  background-color: #dd4865;
+  color: #f6f7eb;
+  background-position: left;
 }
 
 .button-blue {
@@ -47,16 +54,15 @@ a {
   cursor: pointer;
   background-color: #77eecc;
   color: #393e41;
+  background: linear-gradient(to left, #77eecc 50%, #4ca88e 50%) right;
+  background-size: 200%;
+  transition: 1s ease-out;
 }
 
 .button-blue:hover {
   background-color: #6ad1b4;
+  background-position: left;
   color: #393e41;
-}
-
-.button:hover {
-  background-color: #dd4865;
-  color: #f6f7eb;
 }
 
 /* ----------------------------GENERAL----------------------------------------------------------- */
