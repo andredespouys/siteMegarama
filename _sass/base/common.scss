@@ -29,18 +29,31 @@ a {
   cursor: pointer;
 }
 
-.button:hover {
-  background-color: #dd4865;
-}
+
 
 .button-blue {
   /* bouton BLEU */
+  display: table;
+  max-width: 100%;
+  text-align: center;
+  padding: 12px 29px;
+  border-radius: 30px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  transition: 0.2s;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
   background-color: #77eecc;
   color: #393e41;
 }
 
 .button-blue:hover {
-  background-color: #ff5476;
+  background-color: #6AD1B4;
+  color: #393e41;
+}
+
+.button:hover {
+  background-color: #dd4865;
+  color: #f6f7eb;
 }
 
 
