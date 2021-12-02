@@ -3,62 +3,28 @@ h2 {
   font-size: 3vw;
 }
 
-h3 {
-  margin-top: 7%;
-}
-
-/* ----------------------------EN_CE_MOMENT----------------------------------------------------------- */
-
-.en_ce_moment section {
-  display: flex;
-  flex-direction: column;
-}
-
-.container_en_ce_moment {
-  /*le contenu de tous mes films*/
-
-  position: relative;
-  display: flex;
-  flex-direction: column;
-}
-
-.liste_films {
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  width: 100%;
+.container_en_ce_moment{
+  padding: 4vh 7vh 7vh 7vh;
   background-color: #393939;
-  border-radius: 25px;
+  border-radius: 30px;  
 }
 
-.affiche_film {
-  padding: 0 1%;
-  width: 23%;
-  margin: 3.5% 0;
+.button_center_absolute{
+  margin: 20px auto -80px auto;
 }
 
-.affiche_film_bas {
-  margin-bottom: 6%;
-}
-
-.titre_film {
-  color: #f6f7eb;
-  text-align: center;
-  font-family: "Roboto", sans-serif;
-  font-size: 1.2em;
-}
-
-/* ----------------------------EVENEMENTS----------------------------------------------------------- */
-
-.test {
+.film{
   display: flex;
-  justify-content: center;
+  padding: 0;
+  margin :3vh;
   flex-direction: column;
-  align-items: center;
-  margin-bottom: 200px;
+  align-items: center;  
 }
-.test a {
-  margin: 20px;
+
+.container_en_ce_moment h3{
+  color: #f6f7eb;
+  padding-top: 10px;
 }
+
+
+

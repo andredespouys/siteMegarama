@@ -1,27 +1,35 @@
 
 
 .list-footer-g{
-background-color: green;
-padding: 0 10%;
+padding: 0 0;
 display: flex;
 flex-direction: row;
 font-size: 18px;
 justify-content: space-between;
 align-items: center;
+line-height: 30px;
+margin: 0;
+margin-right: 150px;
 }
 
+.list-footer-g a:hover{
+    color:#FF5476
+}
+
+
 .list-footer1{
-    border-right: 2px solid blue;
-    padding: 20px; 
+    border-right: 2px solid white;
+    padding-right: 50px; 
 }
 
 .list-footer2{
-    border-right: 2px solid blue;
-    padding: 20px; 
+    border-right: 2px solid white;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .list-footer3{
-    padding: 20px; 
+    padding-left: 50px; 
 }
 
 
@@ -36,7 +44,6 @@ ul{
 /*-------------------BOUTONS-REASEAUX-SOCIAUX----------------*/
 
 .list_social_media_btn{
-    background-color: red;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -65,29 +72,31 @@ ul{
 
 .list-logo{
     display: flex;
-    background-color: chartreuse;
     flex-direction: column;
 }
 
 .list-logo1{
     align-self:center;
-    background-color: purple;
 }
 
 .list-logo2{
     height: 100%;
     display: flex;
     flex-direction: column;
-    background-color: crimson;
     justify-content: flex-end;   
     
 }
 
+.list-logo2 img{
+    border-radius: 50px;
+}
+
 .top{
     display: flex;
-    background-color:red;
+    
     justify-content: space-between;
-    padding: 50px 20px;
+    padding: 50px 79.2px;
+    margin:50px;
     /* align-items: center;                             */
 }
 
@@ -109,10 +118,29 @@ ul{
     justify-content: center;
     align-items: center;
     border-radius: 50%;
+    transition: 0.2s;
     
 }
 
 .arrierebouton:hover{
     background-color: #77EECC;
-    border-color: hotpink;
 }
+
+.arrierebouton2:hover{
+    border: 1px solid #FF5476;
+    transition: 0.2s;
+}
+
+.arrierebouton2{
+    border: 1px solid #232323;
+}
+
+.arrierebouton3{
+    border: 1px solid #232323;
+}
+
+.arrierebouton3:hover{
+    border: 1px solid #77EECC;
+    transition: 0.2s;
+    }
+
