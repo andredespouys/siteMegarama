@@ -3,13 +3,30 @@ h2 {
   font-size: 3vw;
 }
 
+.en_ce_moment{
+  h2{
+    color: red;
+  }
+  
+  i{
+    background-color:blue;
+  }
+}
+
+
+.container_en_ce_moment h3{
+  margin-top:3px;
+  font-size: 1.2vw;
+}
+
 .container_en_ce_moment{
   background-color: #393939;
   border-radius: 20px;  
 }
 
 .button_center_absolute{
-  margin: 20px auto -80px auto;
+  display: inline-block;
+  margin: 20px auto -30px auto;
 }
 
 .film{
