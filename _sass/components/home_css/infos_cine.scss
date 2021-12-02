@@ -1,6 +1,9 @@
 /* HORAIRES SECTION */
 #horaires {
   background-image: url("../../../assets/img/cinema-horaires.png");
+  background-repeat: no-repeat;
+  background-position-y: top;
+  background-attachment: fixed;
   margin: 15% auto;
   height: 90vh;
   position: relative;
