@@ -13,3 +13,21 @@
 .subtitle-landing {
   margin: 5% 0;
 }
+
+@media screen and (max-width: 768px) {
+  /* LANDING NAV */
+  #landing {
+    height: 100vh;
+    margin: 25% 5%;
+    position: relative;
+  }
+  .box-landing {
+    width: 80%;
+    display: block;
+    margin: 5% 0;
+    color: #f6f7eb;
+  }
+  .subtitle-landing {
+    margin: 5% 0;
+  }
+}
