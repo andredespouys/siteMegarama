@@ -37,10 +37,54 @@
 
   @media screen and (max-width: 480px){
 
-    .coup_de_coeur {
+    .coup_de_coeur{
+      margin-top: 20vw;
+    }
+
+    .imgtitretexte {
       display:flex;
       flex-direction: column;
+      align-items: center;
     }
+
+    .coup_de_coeur h2{
+      display: flex;
+      flex-direction: column;
+      font-size:2rem;
+      align-items: center;
+      padding: 7vw 0;
+    }
+
+    .coup_de_coeur h3{
+      margin: 6vw 0;
+    }
+
+
+
+    .text-container{
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .coeur{
+      display: none;
+    }
+
+    .coup_de_coeur .button{
+      margin: 0;
+
+    }
+
+    .content-rush{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+
+
   }
 
 
