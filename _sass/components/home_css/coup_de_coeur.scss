@@ -37,10 +37,22 @@
 
   @media screen and (max-width: 480px){
 
-    .coup_de_coeur {
+    .imgtitretexte {
       display:flex;
       flex-direction: column;
     }
+
+    .coup_de_coeur h2{
+      display: flex;
+      flex-direction: column;
+      font-size:2rem;
+    }
+
+    .text-container{
+      margin: 0;
+    }
+
+
   }
 
 
