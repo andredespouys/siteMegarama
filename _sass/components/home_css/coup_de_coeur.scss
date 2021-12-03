@@ -30,8 +30,13 @@
       line-height: 30px;
   }
 
+
   @media screen and (max-width: 480px){
 
+    .coup_de_coeur {
+      display:flex;
+      flex-direction: column;
+    }
   }
 
 
