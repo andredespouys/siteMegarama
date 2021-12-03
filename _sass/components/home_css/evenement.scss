@@ -1,82 +1,85 @@
-.evenements{
-    display: block;
-    margin-bottom: 30vh;
-  }
+.evenements {
+  display: block;
+  margin-bottom: 30vh;
+}
+.img-evenement {
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+.img-evenement:hover {
+  transform: translateY(-20px);
+}
 
-  .evenement1 h3 {
-    color: #f6F7EB;
-    font-size: 65px;
-  }
-  .evenement2 h3 {
-    color: #f6F7EB;
-    font-size: 65px;
-  }
+.evenement1 h3 {
+  color: #f6f7eb;
+  font-size: 65px;
+}
+.evenement2 h3 {
+  color: #f6f7eb;
+  font-size: 65px;
+}
 
-  .evenement1 {
+.evenement1 {
+  display: flex;
+  justify-content: space-evenly;
+  @media screen and (max-width: 480px) {
     display: flex;
-    justify-content: space-evenly;
-    @media screen and (max-width: 480px) {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
+    flex-direction: column;
+    justify-content: center;
   }
-    
+}
 
-  .evenement2 {
+.evenement2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 150px;
+  @media screen and (max-width: 480px) {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+}
+
+.texteevenement1 {
+  width: 40%;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  @media screen and (max-width: 480px) {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.text-evenement {
+  line-height: 35px;
+  margin: 10% 0;
+}
+
+.texteevenement2 {
+  width: 40%;
+  text-align: left;
+  margin-top: 30px;
+  @media screen and (max-width: 480px) {
+    width: 100%;
+    text-align: center;
+  }
+}
+.texteevenement2 p {
+  line-height: 35px;
+}
+.button-blue {
+  @media screen and (max-width: 480px) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .evenemet h2 {
     display: flex;
-    justify-content: space-evenly;
-    margin-top: 150px;
-      @media screen and (max-width: 480px) {
-      flex-direction: column-reverse;
-      justify-content: center;
-      }
-
+    flex-direction: column;
+    font-size: 2rem;
+    align-items: center;
+    padding: 7vw 0;
   }
-  
-  .texteevenement1 {
-    width: 40%;
-    text-align: left;
-    margin: 0;
-    padding: 0;
-    @media screen and (max-width: 480px) {
-      width: 100%;
-      text-align: center;
-    }
-  }
-  
-  .text-evenement {
-    line-height: 35px;
-    margin: 10% 0;
-  }
-  
-  .texteevenement2 {
-    width: 40%;
-    text-align: left;
-    margin-top: 30px;
-    @media screen and (max-width: 480px) {
-      width: 100%;
-      text-align: center;
-    }
-  }
-  .texteevenement2 p {
-    line-height: 35px;
-  }
-  .button-blue {
-    @media screen and (max-width: 480px) {
-      margin-left: auto;
-      margin-right: auto;
-    }
-  }
-
-  @media screen and (max-width: 480px){
-
-    .evenemet h2{
-      display: flex;
-      flex-direction: column;
-      font-size:2rem;
-      align-items: center;
-      padding: 7vw 0;
-    }
-
-  }
+}

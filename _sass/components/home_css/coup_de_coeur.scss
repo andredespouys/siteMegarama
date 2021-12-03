@@ -1,90 +1,79 @@
 .coup_de_coeur {
-    display: block;
-    justify-content: space-between;
-    background-color: #323232;
-    margin: 5% auto;
-    padding-top: 1%;
-    padding-bottom: 5%;
+  display: block;
+  justify-content: space-between;
+  background-color: #323232;
+  margin: 15% auto;
+  padding-top: 1%;
+  padding-bottom: 5%;
+}
+.imgtitretexte {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-container {
+  margin-left: 8vw;
+}
+.titretexte {
+  display: block;
+  justify-content: space-between;
+  width: 70%;
+}
+.titrecdp {
+  border-radius: 5px;
+  border-color: #323232;
+}
+.coeur {
+  position: absolute;
+  right: 90%;
+  transform: translateY(-45%);
+}
+.titrecdp p {
+  margin: 10% 0%;
+  line-height: 30px;
+}
+
+@media screen and (max-width: 480px) {
+  .coup_de_coeur {
+    margin-top: 20vw;
   }
+
   .imgtitretexte {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .coup_de_coeur h2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    align-items: center;
+    padding: 7vw 0;
+  }
+
+  .coup_de_coeur h3 {
+    margin: 6vw 0;
   }
 
   .text-container {
-    margin-left: 8vw;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
   }
-  .titretexte {
-    display: block;
-    justify-content: space-between;
-    width: 70%;
-  }
-  .titrecdp {
-   border-radius: 5px;
-   border-color: #323232;
-  }
+
   .coeur {
-      position: absolute;
-      right: 90%;
-      transform: translateY(-45%); 
-      
-  }
-  .titrecdp p{
-      margin: 10% 0%;
-      line-height: 30px;
+    display: none;
   }
 
-
-  @media screen and (max-width: 480px){
-
-    .coup_de_coeur{
-      margin-top: 20vw;
-    }
-
-    .imgtitretexte {
-      display:flex;
-      flex-direction: column;
-      align-items: center;
-    }
-
-    .coup_de_coeur h2{
-      display: flex;
-      flex-direction: column;
-      font-size:2rem;
-      align-items: center;
-      padding: 7vw 0;
-    }
-
-    .coup_de_coeur h3{
-      margin: 6vw 0;
-    }
-
-
-
-    .text-container{
-      margin: 0;
-      display: flex;
-      justify-content: center;
-      text-align: center;
-    }
-
-    .coeur{
-      display: none;
-    }
-
-    .coup_de_coeur .button{
-      margin: 0;
-
-    }
-
-    .content-rush{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-  
-
-
+  .coup_de_coeur .button {
+    margin: 0;
   }
 
-
+  .content-rush {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
