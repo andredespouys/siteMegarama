@@ -1,0 +1,57 @@
+.film-section {
+  margin: 10vw auto;
+}
+.title-reservations h2 {
+  color: #77eecc;
+}
+
+.date-box {
+  width: 100%;
+}
+.date-box-title {
+  margin: 5% 0;
+}
+.date-list {
+  display: flex;
+  width: 100%;
+  margin: 5% 0;
+  justify-content: space-between;
+  background-color: #323232;
+  border-radius: 80px;
+}
+.date-item {
+  background-color: initial;
+  margin: 0;
+  border-radius: 80px;
+  padding: 1%;
+  align-self: center;
+}
+
+.date-item-active {
+  background-color: #ff5476;
+  border-radius: 80px;
+  padding: 1.5% 2%;
+}
+.seance-list {
+  display: flex;
+  width: 50%;
+  margin: 5% 0;
+  justify-content: space-between;
+  background-color: #323232;
+  border-radius: 80px;
+}
+.seance-item {
+  padding: 3%;
+}
+.seance-item-active {
+  background-color: #ff5476;
+  border-radius: 80px;
+  padding: 3% 5%;
+}
+.seance-link-horaire {
+  color: #77eecc;
+}
+.seance-link-active {
+  align-self: center;
+  padding: 1.5% 2%;
+}
