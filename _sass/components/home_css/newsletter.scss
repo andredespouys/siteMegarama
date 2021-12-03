@@ -50,3 +50,9 @@
   position: relative;
   right: 4%;
 }
+
+@media screen and (max-width: 768px) {
+  /* NEWSLETTER MOBILE */
+  background-size: 100%;
+  background-position: top;
+}

@@ -3,6 +3,7 @@
   height: 50vh;
   margin: 15% 5% 5% 0;
   position: relative;
+  width: 100%;
 }
 .box-landing {
   width: 80%;
@@ -18,13 +19,14 @@
   /* LANDING NAV */
   #landing {
     padding-top: 20vw;
-    height: 100vh;
-    margin: 10% auto 10%;
-    position: relative;
+    height: 80vh;
+    margin: 10% 0;
+    width: 100%;
   }
   .box-landing {
     width: 100%;
-    display: block;
+    display: flex;
+    flex-direction: column;
     padding: 10% 0;
     color: #f6f7eb;
   }
