@@ -17,17 +17,24 @@
 @media screen and (max-width: 768px) {
   /* LANDING NAV */
   #landing {
+    padding-top: 20vw;
     height: 100vh;
-    margin: 25% 5%;
+    margin: 10% auto 10%;
     position: relative;
   }
   .box-landing {
-    width: 80%;
+    width: 100%;
     display: block;
-    margin: 5% 0;
+    padding: 10% 0;
     color: #f6f7eb;
   }
+  .title-landing {
+    text-align: center;
+    font-size: 3.5rem;
+  }
   .subtitle-landing {
-    margin: 5% 0;
+    margin: 10% 0;
+    text-align: center;
+    font-size: 1rem;
   }
 }

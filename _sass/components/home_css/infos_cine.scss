@@ -1,4 +1,7 @@
 /* HORAIRES SECTION */
+.button-info2 {
+  display: none;
+}
 #horaires {
   background-image: url("../../../assets/img/cinema-horaires.png");
   background-size: 100%;
@@ -72,4 +75,47 @@
   display: table;
 
   border-right-color: #f6f7eb;
+}
+
+@media screen and (max-width: 768px) {
+  .button-info1 {
+    display: none;
+  }
+  #horaires {
+    width: 100%;
+    height: 120vh;
+    margin: 30vw 0;
+    background-image: url("../../../assets/img/info-cine-mobile.png");
+    padding-top: 10vw;
+  }
+  .box-horaires {
+    display: block;
+  }
+  .box-title-horaires {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .box-info-horaires {
+    margin: 5% auto 15%;
+  }
+  .title2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 20vw auto;
+    padding: 0;
+  }
+  .gray-box {
+    padding: 7%;
+  }
+  .icon-horaires {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .button-info2 {
+    display: block;
+    width: 45%;
+    margin: 10% auto;
+  }
 }
