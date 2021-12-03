@@ -27,6 +27,7 @@
     position: absolute;
     top: -30%;
     left: -40%;
+    z-index: 3;
   }
 
   .film img {
@@ -75,4 +76,7 @@
   .container-fluid {
     margin: 10% 0%;
   }
+}
+.block-film {
+  position: relative;
 }
