@@ -45,6 +45,7 @@
   border: none;
   width: 30%;
   padding-left: 3%;
+  background-color: #1c1c1c;
 }
 .button-newsletter {
   position: relative;
@@ -53,6 +54,41 @@
 
 @media screen and (max-width: 768px) {
   /* NEWSLETTER MOBILE */
-  background-size: 100%;
-  background-position: top;
+  .newsletter {
+    background-size: 100%;
+    background-position: top;
+    background-image: url("../../../assets/img/newsletter-mobile.png");
+    margin: 30vw auto;
+    padding: 10vw;
+  }
+  .box-text {
+    display: block;
+    position: sticky;
+    margin: 30vw 0;
+  }
+  .title-newsletter {
+    font-size: 2rem;
+    text-align: left;
+  }
+  .text-newsletter {
+    font-size: 1.5rem;
+    margin: 10vw 0;
+    font-weight: lighter;
+  }
+  .label {
+    font-size: 1rem;
+  }
+  .mail-input {
+    margin: 10% auto;
+  }
+  .input-newsletter {
+    /* Emplacement de la zone de texte avec l'exemple */
+
+    width: 70%;
+  }
+  .button-newsletter {
+    position: relative;
+
+    right: 10%;
+  }
 }
