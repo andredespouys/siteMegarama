@@ -33,7 +33,7 @@
   .film img {
     max-width: 100%;
     border-radius: 20px;
-    transition: 1s ;
+    transition: 1s;
   }
 
   .film:hover {
@@ -81,4 +81,25 @@
 }
 .block-film {
   position: relative;
+}
+@media screen and (max-width: 768px) {
+  .row {
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: 30vw;
+  }
+  .film {
+    width: 100%;
+    margin: 0;
+  }
+  .number {
+    font-size: 50%;
+    top: 50%;
+    width: 10%;
+  }
+  .w-100 {
+    width: 100%;
+    margin: 20vw 0;
+  }
 }
