@@ -1,0 +1,32 @@
+.coup_de_coeur {
+    display: block;
+    justify-content: space-between;
+    background-color: #323232;
+    margin: 5% auto;
+    padding-top: 1%;
+    padding-bottom: 5%;
+  }
+  .imgtitretexte {
+    display: flex;
+    justify-content: space-between;
+  }
+  .titretexte {
+    display: block;
+    justify-content: space-between;
+    width: 70%;
+  }
+  .titrecdp {
+   border-radius: 5px;
+   padding: 2%;
+   border-color: #323232;
+  }
+  .coeur {
+      position: absolute;
+      right: 89.5%;
+      
+  }
+  .titrecdp p {
+      margin: 10%;
+  }
+
+
