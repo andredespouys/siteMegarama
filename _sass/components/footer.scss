@@ -218,3 +218,15 @@ ul{
   transform: scale(1.1);
   transform: rotate(1deg);
 }
+.logo:hover{
+    transform: scale(1.1);
+    transform: rotate(1deg);
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

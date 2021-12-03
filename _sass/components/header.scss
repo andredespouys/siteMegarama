@@ -61,6 +61,10 @@ nav {
   align-items: center;
   justify-content: space-between;
 }
+
+
+
+
 .search-box {
   margin-top: -5%;
 }
@@ -72,6 +76,11 @@ nav {
   padding-top: 4%;
   border: none;
   border-color: white;
+}
+
+.search:focus-visible{
+color: black;
+outline-color:#ff5b7b;
 }
 
 .nav-a:hover {
