@@ -68,3 +68,13 @@
       margin-right: auto;
     }
   }
+
+  @media screen and (max-width: 480px){
+
+    .section_title h2{
+      display: flex;
+      flex-direction: column;
+      font-size:2rem;
+      align-items: center;
+      padding: 7vw 0;
+    }
