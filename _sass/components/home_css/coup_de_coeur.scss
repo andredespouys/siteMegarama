@@ -22,11 +22,16 @@
   .coeur {
       position: absolute;
       right: 90%;
+      transform: translateY(-45%); 
       
   }
   .titrecdp p{
       margin: 10% 0%;
       line-height: 30px;
+  }
+
+  @media screen and (max-width: 480px){
+
   }
 
 
